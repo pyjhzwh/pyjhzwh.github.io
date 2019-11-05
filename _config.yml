@@ -11,9 +11,9 @@ title                    : "Yunjie Pan's Personal Website"
 title_separator          : "-"
 name                     : &name "Yunjie Pan"
 description              : &description "personal website"
-url                      : https://panyj.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://pyjhzwh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "panyj.github.io"
+repository               : "pyjhzwh.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160

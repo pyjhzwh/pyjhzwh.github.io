@@ -14,7 +14,9 @@ This is one of the best papers in ASPLOS 2020. I like the idea of transforming a
 
 Previous efforts to optimize bitstream processing focus on fine-grained vectorization. But there are a few limitations. First, coding with SIMD intrinsics is diffucult and time-consuming. Second, this fine-grained optimization cannot be extended to coarse-grained level.
 
-This work come up with an automatic-gernerated and coarse-grained level approach called *principled bitwise speculation (PBS)*. The bitstram program can be viewed as an analogy of sequential circuit. Then the depedencies can be modeled as *finite-state machines(FSMs)*. To minimize the number of states of FSM, the work first use static analysis to reason about the minimal depedent bits. Then contrust the FSM, treating the combination of dependent bits as *states*, examining input-output pairs to find the *transactions*. After modeling as FSM, many speculative FSM parallelization methods can be adopted.
+This work come up with an automatic-gernerated and coarse-grained level approach called *principled bitwise speculation (PBS)*. The bitstram program can be viewed as an analogy of sequential circuit. Then the depedencies can be modeled as *finite-state machines(FSMs)*. To minimize the number of states of FSM, the work first use static analysis to reason about the minimal depedent bits. Then contrust the FSM, treating the combination of dependent bits as *states*, examining input-output pairs to find the *transactions*. After modeling as FSM, many speculative FSM parallelization methods can be adopted. The work flow is shown as following.
+
+![workflow](workflow-bitstream.png)
 
 The analysis process of depedent bits envoloves a lot techniques of compiler, like RAW, liveness analysis, CFG. And the *bit-status analysis* is addressed with techiques for hardware synthesis. So reading this paper makes me recall what I learned from EECS 583.
 

@@ -1,7 +1,7 @@
 ---
 title: '[2020-07-13]Orbital Edge Computing: Nanosatellite Constellations as a New Class of Computing System'
 date: 2020-07-13
-permalink: /reading/
+permalink: /reading/2020-07-13/
 tags:
   - reading paper
   - computer architecture

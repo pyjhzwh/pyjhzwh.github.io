@@ -1,7 +1,7 @@
 ---
 title: '[2020-07-15]Coterie: Exploiting Frame Similarity to Enable High-Quality Multiplayer VR on Commodity Mobile Devices'
 date: 2020-07-15
-permalink: /reading/
+permalink: /reading/2020-07-15/
 tags:
   - reading paper
   - computer architecture

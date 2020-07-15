@@ -9,7 +9,6 @@ redirect_from:
 ---
 I am a PhD student in computer architecture at University of Michigan CCCP(Compilers Creating Custom Processors) lab. My research insterests includes computation reduction and acceleration of CNN, hardware-aware pruning for CNN. I am advised by [Professor Scott Mahlke](https://web.eecs.umich.edu/~mahlke/).
 
-
 <script>
 var sites =[
   'https://carolzxyzxy.github.io/',
@@ -22,4 +21,4 @@ function randomSite() {
   window.location.href = sites[i];
 }
 </script>
-<p style="font-size: 0.75rem;">PS: I have many genius friends and this < a href="javascript:randomSite()"><span style='color:#00aa00'><b>LINK</b></span></ a> will redirect you to one of them.</p >
+<p style="font-size: 0.75rem;">PS: I have many genius friends and this < a href="#" onclick="randomSite()"><span style='color:#00aa00'><b>LINK</b></span></ a> will redirect you to one of them.</p >

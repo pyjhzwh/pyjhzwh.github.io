@@ -22,4 +22,4 @@ function randomSite() {
   window.location.href = sites[i];
 }
 </script>
-<p style="font-size: 0.75rem;">PS: I have many genius friends and this < a href=" "><span style='color:#00aa00'><b>LINK</b></span></ a> will redirect you to one of them.</p >
+<p style="font-size: 0.75rem;">PS: I have many genius friends and this < a href="javascript:randomSite()"><span style='color:#00aa00'><b>LINK</b></span></ a> will redirect you to one of them.</p >

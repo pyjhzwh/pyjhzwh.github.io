@@ -1,7 +1,7 @@
 ---
 title: '[2020-07-15]Coterie: Exploiting Frame Similarity to Enable High-Quality Multiplayer VR on Commodity Mobile Devices'
 date: 2020-07-15
-permalink: /posts/2020-07-15/
+permalink: /reading/
 tags:
   - reading paper
   - computer architecture
@@ -36,7 +36,7 @@ The cutoff radius that seperates near BE and far BE is determined dynamically, d
 
 ## COTERIE Design
 
-![COTERIE architecture](../../images/coterie_arch.png)
+![COTERIE architecture](../images/coterie_arch.png)
 In offline processing, Coterie server runs the adaptive cutoff scheme to divide the *near BE* and *far BE* and pre-render and pre-encodes. During the game, the server replies the prefech request from clients.
 
 Coterie client will render the frame for next grid during the game by performing four tasks: (1) FI and near BE rendering (2) Decode far BE frames received from server (3) Syncronizing FI between all players (4) Merging far BE, FI and near BE frames.

@@ -1,7 +1,7 @@
 ---
 title: '[2020-07-13]Orbital Edge Computing: Nanosatellite Constellations as a New Class of Computing System'
 date: 2020-07-13
-permalink: /posts/2020-07-13/
+permalink: /reading/
 tags:
   - reading paper
   - computer architecture
@@ -21,7 +21,7 @@ Nanosatellite constellations are subject to a few constraints: 1) energy in spac
 
 CNPs divide image frames into tiles. There are four modes of operation for CNPs, divided in two dimensions - processing distribution and data distribution. *Frame-parallel*, where each frame is processed by different satellite, and *tile-parallel*, where each frame is processed by multiple satellites, describe how image processing tasks are distributed across a CNP. *Closed-spaced*, where all of the satellites have access to the same data at the same time, and *frame-spaced*, where different satellites have acees to different data at different time, describe the physical condifuraions of CNPs. 
 
-![four modes](../../images/OEC_modes.png)
+![four modes](../images/OEC_modes.png)
 
 
 This work also provides a *cote* system as a full-system simulation of OEC systems. The detailed equations are shown in the paper. I won't talk much about this cause I am no expert ar voltage/ energy.

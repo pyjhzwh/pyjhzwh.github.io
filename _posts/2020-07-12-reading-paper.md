@@ -1,7 +1,7 @@
 ---
 title: '[2020-07-12]Challenging Sequential Bitstream Processing via Principled Bitwise Speculation'
 date: 2020-07-12
-permalink: /reading/2020-07-12/
+permalink: /posts/2020-07-12/
 tags:
   - reading paper
   - computer architecture

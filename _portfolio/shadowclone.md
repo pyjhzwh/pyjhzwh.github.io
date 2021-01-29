@@ -8,4 +8,4 @@ Control-flow hijacking attacks have been hard to deploy due to the widespread ad
 In this paper, we present a compile time stack layout randomization scheme- Shadowclone -to thwart and detect DOP attacks effectively. Shadowclone generates randomized clones of vulnerable target functions and randomly selects one copy of clones to execute during runtime. In addition, we also insert compile-time random canaries into stack variables and check its integrity before the function returns. In the evaluation section, we show that our approach can thwart and detect DOP attacks efficiently by limiting attacker's success chance to less than 1%. Shadowclone also has low performance overhead when the program is small and has few function calls.
 
 [Code](https://github.com/shibo-chen/Shadowclone) is avaible on Github.
-[Report](../_site/files/shadowclone_report.pdf) and [Slides](../_site/files/shadowclone_report.pdf) also available.
+[Report](https://pyjhzwh.github.io/files/shadowclone_report.pdf) and [Slides](https://pyjhzwh.github.io/files/shadowclone_slides.pdf) also available.
